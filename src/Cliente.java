@@ -19,12 +19,12 @@ public class Cliente {
 
   //Associação Cliente-Contas: Um cliente pode ter várias contas, mas a classe 
   //Cliente agora pode listar todas as contas de um determinado cliente.  
-    public void adicionarConta(Conta conta) {
+  public void adicionarConta(Conta conta) {
     if (this.contasDoCliente == null) {
         this.contasDoCliente = new ArrayList<>();
     }
     this.contasDoCliente.add(conta);
-}
+  }
 
 
 }

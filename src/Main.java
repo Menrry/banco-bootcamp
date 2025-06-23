@@ -1,5 +1,4 @@
 import java.util.ArrayList; // Adicionar import para ArrayList
-//import java.util.List; // Adicionar import para List
 
 public class Main {
 
@@ -17,9 +16,9 @@ public class Main {
         Conta ccDiogo = new ContaCorrente(diogo);
 
         // Associa as contas aos clientes (opcional, se você adicionar a lista de contas na classe Cliente)
-        // venilton.adicionarConta(ccVenilton);
-        // venilton.adicionarConta(poupancaVenilton);
-        // diogo.adicionarConta(ccDiogo);
+        venilton.adicionarConta(ccVenilton);
+        venilton.adicionarConta(poupancaVenilton);
+        diogo.adicionarConta(ccDiogo);
 
         // Criação de um banco e adição de contas
         Banco meuBanco = new Banco();
